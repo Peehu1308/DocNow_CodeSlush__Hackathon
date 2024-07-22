@@ -1,0 +1,99 @@
+{
+    "intents": [
+    {
+        "name": "GeneralHealthSymptoms",
+        "displayName": "What are the symptoms of the flu?",
+        "trainingPhrases": [
+        "What are the symptoms of the flu?",
+        "Tell me about flu symptoms",
+        "Flu symptoms",
+        "How do I know if I have the flu?"
+        ],
+        "responses": [
+        {
+            "text": {
+            "text": [
+                "The flu typically includes symptoms such as fever, cough, sore throat, runny or stuffy nose, muscle or body aches, headaches, and fatigue. If you suspect you have the flu, it's important to consult with a healthcare provider."
+            ]
+            }
+        }
+        ]
+    },
+    {
+        "name": "AppointmentScheduling",
+        "displayName": "How can I schedule an appointment with Dr. Smith?",
+        "trainingPhrases": [
+        "How can I schedule an appointment with Dr. Smith?",
+        "I need to book an appointment with Dr. Smith",
+        "Schedule appointment with Dr. Smith",
+        "Dr. Smith appointment scheduling"
+        ],
+        "responses": [
+        {
+            "text": {
+            "text": [
+                "To schedule an appointment with Dr. Smith, you can visit our appointment scheduling page [link], call our office at [phone number], or use our online booking system [link]."
+            ]
+            }
+        }
+        ]
+    },
+    {
+        "name": "MedicationInformation",
+        "displayName": "What are the side effects of my medication?",
+        "trainingPhrases": [
+        "What are the side effects of my medication?",
+        "Tell me the side effects of my medication",
+        "Medication side effects",
+        "What should I expect from my medication?"
+        ],
+        "responses": [
+        {
+            "text": {
+            "text": [
+                "For information about the side effects of your medication, please refer to the medication guide provided with your prescription or consult with your pharmacist or healthcare provider. You can also look up specific medications on reliable medical websites."
+            ]
+            }
+        }
+        ]
+    },
+    {
+        "name": "InsuranceAndBilling",
+        "displayName": "What insurance plans do you accept?",
+        "trainingPhrases": [
+        "What insurance plans do you accept?",
+        "List of accepted insurance plans",
+        "Do you accept my insurance?",
+        "Insurance information"
+        ],
+        "responses": [
+        {
+            "text": {
+            "text": [
+                "We accept a variety of insurance plans. For a detailed list of accepted plans, please visit our insurance page [link] or contact our billing department at [phone number]."
+            ]
+            }
+        }
+        ]
+    },
+    {
+        "name": "MentalHealthSupport",
+        "displayName": "How can I manage anxiety effectively?",
+        "trainingPhrases": [
+        "How can I manage anxiety effectively?",
+        "Anxiety management tips",
+        "How to deal with anxiety",
+        "Best ways to manage anxiety"
+        ],
+        "responses": [
+        {
+            "text": {
+            "text": [
+                "Managing anxiety can involve practices such as mindfulness, cognitive-behavioral therapy (CBT), regular physical activity, and seeking support from a mental health professional. It’s important to find strategies that work for you and consult with a healthcare provider for personalized support."
+            ]
+            }
+        }
+        ]
+    }
+    ]
+}

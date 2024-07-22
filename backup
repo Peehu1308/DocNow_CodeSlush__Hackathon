@@ -1,0 +1,134 @@
+@media only screen and (max-width: 600px) {
+    .nav {
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px;
+        height: auto;
+        overflow-y: hidden;
+    }
+
+    .nav h4 {
+        font-size: 6vw;
+        margin-top: 10px;
+        margin-bottom: 14px;
+    }
+
+    .nav .link a {
+        margin-right: 25px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    /* Landing CSS */
+    .landing {
+        flex-direction: column-reverse;
+        height: 750px;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .landingtext h1 {
+        font-size: 6vw;
+        margin: 0 !important;
+    }
+
+    .landingtext h3 {
+        font-size: 16px;
+    }
+
+    .landingtext .btn {
+        font-size: 3vw;
+    }
+
+    .landingImage img {
+        width: 52vw;
+        margin-bottom: 20px;
+    }
+
+    /* Service section */
+    .about {
+        height: auto;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .abouttext {
+        padding: 0 50px;
+        height: 100px;
+    }
+
+    .abouttext h1 {
+        left: 40px;
+        font-size: 5vw;
+    }
+
+    .abouttext img {
+        width: 16vw;
+        top: 1px;
+        left: -30px;
+    }
+
+    .aboutlist {
+        width: 75%;
+    }
+
+    ol li {
+        font-size: 20px;
+    }
+
+    li p {
+        font-size: 14px;
+    }
+
+    .infosection {
+        height: auto;
+    }
+
+    .infoheader {
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    .infocards {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .infocards .card {
+        margin-bottom: 16px;
+    }
+
+    /* Banner */
+    .banner {
+        height: auto;
+        flex-direction: column-reverse;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner h1 {
+        font-size: 6vw;
+    }
+
+    .bannertext {
+        width: 20vw;
+    }
+
+    .bannerimg img {
+        width: 26vw;
+    }
+
+    /* Footer */
+    .footer {
+        padding-bottom: 14px;
+    }
+}
